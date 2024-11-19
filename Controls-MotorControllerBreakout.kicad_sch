@@ -2088,88 +2088,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3327,8 +3245,8 @@
 		(uuid 1edb2b0b-b5c4-4a5a-9ab9-282f1c456f4c)
 	)
 	(rectangle
-		(start 16.51 34.29)
-		(end 40.64 64.77)
+		(start 40.64 34.29)
+		(end 64.77 64.77)
 		(stroke
 			(width 0)
 			(type default)
@@ -3362,18 +3280,6 @@
 		)
 		(uuid a596519c-64ae-4d51-91db-5e6133060ce5)
 	)
-	(rectangle
-		(start 43.18 45.72)
-		(end 64.77 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e3e41549-03bf-40b3-b6b6-c758938e0320)
-	)
 	(text_box "Power LED"
 		(exclude_from_sim no)
 		(at 67.31 60.96 0)
@@ -3395,7 +3301,7 @@
 	)
 	(text_box "Graphics"
 		(exclude_from_sim no)
-		(at 30.48 60.96 0)
+		(at 54.61 60.96 0)
 		(size 10.16 3.81)
 		(stroke
 			(width 0)
@@ -3430,25 +3336,6 @@
 			(justify left top)
 		)
 		(uuid "b43e38a0-8659-4734-8180-fea3a7917c8a")
-	)
-	(text_box "Mounting Holes"
-		(exclude_from_sim no)
-		(at 43.18 60.96 0)
-		(size 21.59 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "d506682a-6bbb-40ef-9822-040f4f2a6c02")
 	)
 	(text_box "CAN Connectors"
 		(exclude_from_sim no)
@@ -4134,70 +4021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 57.15 57.15 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d42bf58-c0ba-40a3-b1ae-a8904e0344fa")
-		(property "Reference" "H4"
-			(at 59.69 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 59.69 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Controls-MotorControllerBreakout"
-				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 25.4 106.68 0)
 		(mirror y)
@@ -4451,70 +4274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 46.99 57.15 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6098aefa-d68a-478c-a77e-b3cb5a7237f7")
-		(property "Reference" "H2"
-			(at 49.53 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 49.53 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 46.99 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 46.99 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Controls-MotorControllerBreakout"
-				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 83.82 74.93 0)
 		(mirror y)
@@ -4641,70 +4400,6 @@
 			(project ""
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 46.99 49.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cf82a88-5ab7-4ad2-83f7-e47878c4f4ab")
-		(property "Reference" "H1"
-			(at 49.53 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 49.53 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 46.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 46.99 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Controls-MotorControllerBreakout"
-				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -4958,70 +4653,6 @@
 			(project "Controls-MotorControllerBreakout"
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 57.15 49.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9a8fdd5-a2f4-43e0-97b5-5c2628891b35")
-		(property "Reference" "H3"
-			(at 59.69 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 59.69 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Controls-MotorControllerBreakout"
-				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5456,7 +5087,7 @@
 	)
 	(symbol
 		(lib_id "utsvt-misc:Logo_Placeholder")
-		(at 22.86 39.37 0)
+		(at 46.99 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5465,7 +5096,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2f8e8c7-1c29-4b8b-a5ee-6c40e8541beb")
 		(property "Reference" "LOGO1"
-			(at 22.86 35.56 0)
+			(at 46.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5105,7 @@
 			)
 		)
 		(property "Value" "UTSVT Logo"
-			(at 26.67 39.3699 0)
+			(at 50.8 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5114,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Special:UTSVT_Logo_Symbol"
-			(at 22.86 37.465 0)
+			(at 46.99 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 37.465 0)
+			(at 46.99 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5132,7 @@
 			)
 		)
 		(property "Description" "Graph footprint placeholder"
-			(at 22.86 39.37 0)
+			(at 46.99 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
