@@ -3449,7 +3449,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "M7"
 			(at 0 -2.1 0)
 			(layer "B.Fab")
 			(uuid "8dab9d57-2926-49d5-a948-decb7d376aee")
@@ -3475,7 +3475,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4007FL/11657817"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/RS1MWF.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3531,7 +3531,7 @@
 				(justify mirror)
 			)
 		)
-		(property "P/N" "1N4007FL"
+		(property "P/N" "RS1MWF-7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

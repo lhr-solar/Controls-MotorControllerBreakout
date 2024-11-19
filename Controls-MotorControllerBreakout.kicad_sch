@@ -3235,7 +3235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4007"
+		(property "Value" "M7"
 			(at 44.45 85.0899 90)
 			(effects
 				(font
@@ -3253,7 +3253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4007FL/11657817"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/RS1MWF.pdf"
 			(at 41.91 83.82 0)
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "1N4007FL"
+		(property "P/N" "RS1MWF-7"
 			(at 41.91 83.82 90)
 			(effects
 				(font
