@@ -6,4 +6,6 @@
   (lib (name "UTSVT_Passive")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Passive.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Power")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Power.pretty")(options "")(descr ""))
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Special.pretty")(options "")(descr ""))
+  (lib (name "Zener")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/Zener")(options "")(descr ""))
+  (lib (name "DB-9 Connector")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/DB-9 Connector")(options "")(descr ""))
 )
