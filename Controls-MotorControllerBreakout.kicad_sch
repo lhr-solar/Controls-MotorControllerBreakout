@@ -1847,6 +1847,18 @@
 		(uuid 1edb2b0b-b5c4-4a5a-9ab9-282f1c456f4c)
 	)
 	(rectangle
+		(start 140.97 27.94)
+		(end 165.1 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a369a72-729e-4e92-9309-577df27ce707)
+	)
+	(rectangle
 		(start 73.66 27.94)
 		(end 138.43 58.42)
 		(stroke
@@ -1900,6 +1912,25 @@
 			(justify left top)
 		)
 		(uuid "383ada46-917e-41f5-afc6-9df4ce2046b8")
+	)
+	(text_box "Graphics"
+		(exclude_from_sim no)
+		(at 154.94 54.61 0)
+		(size 10.16 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4a36eb73-4273-410c-b7a3-7dcc2d208f4f")
 	)
 	(text_box "Board Notes"
 		(exclude_from_sim no)
@@ -2159,6 +2190,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "430450612"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "419f642d-4295-4164-ace5-f04d06678534")
 		)
@@ -2222,7 +2262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/71-CRCW0805-22.1K-E3"
 			(at 62.23 30.48 0)
 			(effects
 				(font
@@ -2523,6 +2563,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "576-0440.375WR "
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82fb2143-79cf-4b1d-b09e-be3e166b64d9")
 		)
@@ -2799,6 +2848,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0436500215"
 			(at 57.15 90.17 0)
 			(effects
 				(font
@@ -3134,6 +3192,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "0436500215"
+			(at 120.65 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4083b1f3-07e5-40b0-b9ae-7d7622d72457")
 		)
@@ -3435,6 +3502,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "0436500215"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54f7c0cb-88f1-4acc-8f10-f4a5fcadbb7b")
 		)
@@ -3681,7 +3757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/71-CRCW0805120RFKEA"
 			(at 76.2 77.47 0)
 			(effects
 				(font
@@ -3691,6 +3767,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805120RFKEA"
 			(at 76.2 77.47 0)
 			(effects
 				(font
