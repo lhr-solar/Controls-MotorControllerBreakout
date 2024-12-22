@@ -6,4 +6,5 @@
   (lib (name "utsvt-microcontrollers")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-microcontrollers.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-power-regulators")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt-power-regulators.kicad_sym")(options "")(descr ""))
   (lib (name "BZT52-B12-QX")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/Zener/BZT52-B12-QX.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2121")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/TPS2121/2024-12-22_13-23-22.kicad_sym")(options "")(descr ""))
 )

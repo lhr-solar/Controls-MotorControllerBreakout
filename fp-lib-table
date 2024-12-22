@@ -8,4 +8,5 @@
   (lib (name "UTSVT_Special")(type "KiCad")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_Special.pretty")(options "")(descr ""))
   (lib (name "Zener")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/Zener")(options "")(descr ""))
   (lib (name "DB-9 Connector")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/DB-9 Connector")(options "")(descr ""))
+  (lib (name "TPS2121")(type "KiCad")(uri "${KIPRJMOD}/Custom-KiCadLibraries/TPS2121/footprints.pretty")(options "")(descr ""))
 )

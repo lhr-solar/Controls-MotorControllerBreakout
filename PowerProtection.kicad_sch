@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "247e0258-c1a9-45d9-97d8-e39d30214d91")
+	(uuid "6931a313-dcbb-4b58-a9c7-9408b977a035")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BZT52-B12-QX:BZT52-B12-QX"
@@ -1461,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 29.21) (xy 34.29 29.21)
+			(xy 29.21 29.21) (xy 34.29 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1499,26 +1499,17 @@
 		)
 		(uuid "f5fb1ef4-600b-4639-918e-db8795ec3618")
 	)
-	(text "TODO: add RPP for controls 12v as well"
-		(exclude_from_sim no)
-		(at 45.974 17.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "93d33487-4d54-4aab-8049-72c26393d943")
-	)
-	(label "+12V_EXT"
-		(at 22.86 29.21 0)
+	(hierarchical_label "+12V_SEL"
+		(shape input)
+		(at 29.21 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "c7e9113d-4dac-4050-9290-404891d04f5e")
+		(uuid "8416a403-3440-4534-a36d-66dbc8f03ca1")
 	)
 	(symbol
 		(lib_id "power:GND")
