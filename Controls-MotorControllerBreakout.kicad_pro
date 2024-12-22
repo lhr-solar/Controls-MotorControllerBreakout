@@ -700,6 +700,14 @@
     [
       "0a971d65-5373-49c6-bc07-3a5d4263dbef",
       "Root"
+    ],
+    [
+      "2da5a7b5-cad0-4d65-bb48-cd65e4f2745e",
+      "PowerDist"
+    ],
+    [
+      "32f4b32a-b924-4653-9c1d-715759d1ff9b",
+      "PowerProtection"
     ]
   ],
   "text_variables": {}

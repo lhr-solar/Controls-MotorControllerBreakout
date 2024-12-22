@@ -1,0 +1,46 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "10c9221f-3793-4548-9675-a136bd3b3dc4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 17.78 20.32)
+		(size 30.48 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32f4b32a-b924-4653-9c1d-715759d1ff9b")
+		(property "Sheetname" "PowerProtection"
+			(at 17.78 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerProtection.kicad_sch"
+			(at 17.78 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(page "3")
+				)
+			)
+		)
+	)
+)
