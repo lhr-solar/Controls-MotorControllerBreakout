@@ -1918,7 +1918,7 @@
 	)
 	(rectangle
 		(start 140.97 73.66)
-		(end 165.1 86.36)
+		(end 165.1 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -1966,7 +1966,7 @@
 	)
 	(text_box "Graphics"
 		(exclude_from_sim no)
-		(at 154.94 82.55 0)
+		(at 154.94 97.79 0)
 		(size 10.16 3.81)
 		(stroke
 			(width 0)
@@ -2058,6 +2058,16 @@
 			(justify top)
 		)
 		(uuid "e7d87c88-af28-49a6-8209-1dd6f8548793")
+	)
+	(text "TODO: add testpoints and stuff"
+		(exclude_from_sim no)
+		(at 29.21 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e2ee871-407b-4e58-b895-3d0d5851c8b7")
 	)
 	(text "THIS IS WRONG! UPDATE!\n\nControls Leader should be connected to \"CAN INTRFC\"\nand \"EXT PWR\" for normal operation. For debug\npurposes, Controls Leader should be connected to only\n\"EXT PWR\" to provide 12v to the MC without interfering\nwith Profinity controls software.\n\n+12v is protected by rectifier diodes and fused on both\nControls Leader and this board (EXT PWR)."
 		(exclude_from_sim no)
@@ -2381,7 +2391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 24.13 83.82 0)
 			(effects
 				(font
@@ -2412,6 +2422,70 @@
 			(project "Controls-MotorControllerBreakout"
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-misc:Logo_Placeholder")
+		(at 147.32 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b4705c9-3389-4099-8b95-c1f0efb8b39f")
+		(property "Reference" "LOGO2"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Hallock"
+			(at 151.13 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Special:Hallock_Image_Tiny"
+			(at 147.32 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Graph footprint placeholder"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef"
+					(reference "LOGO2")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 24.13 71.12 0)
 			(effects
 				(font
@@ -2755,7 +2829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l77sdxxxsa4ch3r.pdf"
 			(at 168.91 39.37 0)
 			(effects
 				(font
@@ -3028,7 +3102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 24.13 77.47 0)
 			(effects
 				(font
@@ -3339,7 +3413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 24.13 90.17 0)
 			(effects
 				(font

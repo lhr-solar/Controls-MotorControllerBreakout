@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "045dc43f-5d53-497f-bd2e-8142823fc835")
+	(uuid "5c9d64fe-7879-4e79-bfb4-8c545bf440f2")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -633,7 +633,7 @@
 		)
 		(uuid "05dc1ac4-0307-45ad-bcf7-d353ecd00a30")
 	)
-	(text "PWR: Illuminated when 12V\npower is present,\nregardless of source\n\nCTRLS: Illuminated when\ncontrols (IN2) source\nis selected\n\nEXT: Illuminated when\nexternal(IN1) source\nis selected"
+	(text "PWR: Illuminated when 12V\npower is present,\nregardless of source\n\nCTRLS: Illuminated when\ncontrols (IN2) source\nis selected\n\nEXT: Illuminated when\nexternal (IN1) source\nis selected"
 		(exclude_from_sim no)
 		(at 20.574 44.196 0)
 		(effects
