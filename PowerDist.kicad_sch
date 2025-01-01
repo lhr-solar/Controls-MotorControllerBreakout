@@ -5,6 +5,108 @@
 	(uuid "36ff14e9-4627-4db4-af81-c3f55886bc85")
 	(paper "User" 254 279.4)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -752,6 +854,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1127,6 +1349,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 240.03) (xy 86.36 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cb08ad-15fc-438b-9679-aab0d182fefd")
+	)
+	(wire
+		(pts
 			(xy 172.72 78.74) (xy 172.72 95.25)
 		)
 		(stroke
@@ -1264,6 +1496,16 @@
 			(type default)
 		)
 		(uuid "9d7ed030-d91f-4190-9a55-86e1f1f89358")
+	)
+	(wire
+		(pts
+			(xy 35.56 240.03) (xy 35.56 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d997b9c-7205-4e48-8ec3-b122e2d1c1ae")
 	)
 	(wire
 		(pts
@@ -1417,6 +1659,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 242.57) (xy 68.58 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ce1063-2daa-40cf-9faf-20eb2d602ba5")
+	)
+	(wire
+		(pts
 			(xy 26.67 66.04) (xy 26.67 68.58)
 		)
 		(stroke
@@ -1497,6 +1749,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 242.57) (xy 68.58 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0028ac6-9eb8-4b6f-a308-78588c67f52d")
+	)
+	(wire
+		(pts
+			(xy 52.07 240.03) (xy 52.07 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f504ac78-b3ef-4b93-9ba9-792c55bffb7e")
+	)
+	(wire
+		(pts
 			(xy 119.38 105.41) (xy 119.38 107.95)
 		)
 		(stroke
@@ -1507,6 +1779,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 240.03) (xy 73.66 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfdb94d-7e7e-4bd7-963b-4f72283634e2")
+	)
+	(wire
+		(pts
 			(xy 123.19 53.34) (xy 123.19 54.61)
 		)
 		(stroke
@@ -1514,6 +1796,18 @@
 			(type default)
 		)
 		(uuid "fda94ba7-5cc0-482a-b6c7-6125a4f58fa1")
+	)
+	(rectangle
+		(start 19.05 229.87)
+		(end 128.27 261.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5781a0e8-2a52-4562-9d5b-04b7cf0c1601)
 	)
 	(rectangle
 		(start 19.05 86.36)
@@ -10236,6 +10530,25 @@
 			"AOASgTIAAAAAAAAAAAAAwCUCZQAAAAAAAAAAAACAS/8fBxl+tXOjba0AAAAASUVORK5CYII="
 		)
 	)
+	(text_box "Testpoints"
+		(exclude_from_sim no)
+		(at 116.84 257.81 0)
+		(size 11.43 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2b3063a1-0b11-4892-8b9d-4fdc384cf3e7")
+	)
 	(text_box "Relevant TPS2121 Documentation"
 		(exclude_from_sim no)
 		(at 185.42 219.71 0)
@@ -10363,6 +10676,17 @@
 			)
 		)
 		(uuid "f9a21fa1-d2b2-4683-a3d8-77a724482cf9")
+	)
+	(label "+12V_EXT_EN"
+		(at 35.56 256.54 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d334369-fab4-4598-8d0b-e90644dadba4")
 	)
 	(label "+12V_SEL"
 		(at 64.77 26.67 180)
@@ -10499,6 +10823,18 @@
 	)
 	(hierarchical_label "+12V_CTRLS"
 		(shape input)
+		(at 52.07 242.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3901dffb-4387-455f-9193-ba13b011910e")
+	)
+	(hierarchical_label "+12V_CTRLS"
+		(shape input)
 		(at 115.57 82.55 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10508,6 +10844,18 @@
 			(justify right)
 		)
 		(uuid "55b13e0f-73ac-4f27-96ae-69651400e6f2")
+	)
+	(hierarchical_label "+12V_STATUS"
+		(shape output)
+		(at 86.36 242.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85d950c4-e52d-459f-b7fb-20a1cc9854e0")
 	)
 	(hierarchical_label "+12V_EXT"
 		(shape input)
@@ -11191,6 +11539,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59187c9c-2c2c-46bd-a39d-82fbf6e84e50")
+		(property "Reference" "TP5"
+			(at 88.9 235.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_STATUS"
+			(at 88.9 237.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 91.44 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd72074a-5ab9-443d-8196-a5f6ef5a4054")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 26.67 62.23 0)
 		(unit 1)
@@ -11387,6 +11802,72 @@
 			(project "Controls-MotorControllerBreakout"
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 68.58 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91387e76-4628-445a-b93f-cb011ce3e94f")
+		(property "Reference" "#PWR016"
+			(at 68.58 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 68.58 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 68.58 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8f193f2-b636-4618-95d6-a6c82c80d091")
+		)
+		(instances
+			(project ""
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11615,6 +12096,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9d6c838-01d7-423d-b152-a0d52255ee8d")
+		(property "Reference" "TP1"
+			(at 38.1 235.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_EXT_EN"
+			(at 38.1 237.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 40.64 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd17b95d-a58f-457d-9d75-e0b904fa45fb")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bda39009-4055-4f56-9862-b76a9587f7a9")
+		(property "Reference" "TP4"
+			(at 76.2 235.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_OUT"
+			(at 76.2 237.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 78.74 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6405a185-08b6-457f-b56b-3e15418994ce")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 163.83 90.17 0)
 		(unit 1)
@@ -11679,6 +12294,73 @@
 			(project ""
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb48e72d-ca1d-4b03-9f1c-4ef553d3c56d")
+		(property "Reference" "TP2"
+			(at 54.61 235.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V_CTRLS"
+			(at 54.61 237.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 57.15 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b29354-f2e7-4b52-9fde-7795cda6e342")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
