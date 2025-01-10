@@ -765,126 +765,6 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1254,44 +1134,80 @@
 		)
 	)
 	(junction
-		(at 39.37 34.29)
+		(at 144.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bfae941-e93c-48dc-96fc-61bc4f4bde60")
+	)
+	(junction
+		(at 35.56 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d2ea4e8-9a70-417e-97d8-3212842bc95b")
 	)
 	(junction
-		(at 72.39 66.04)
+		(at 153.67 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19010860-0755-448d-8732-ac9c9ceed99c")
+	)
+	(junction
+		(at 128.27 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e47151-c6ae-4a51-8dde-617fe7568f14")
+	)
+	(junction
+		(at 68.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29adc4f8-dfc3-4dad-b17f-eac7f955c652")
 	)
 	(junction
-		(at 55.88 66.04)
+		(at 144.78 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b508d60-b3f4-42d7-a280-faa99dfaae84")
+	)
+	(junction
+		(at 52.07 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "725405ad-7e21-492c-8788-5b6b62dfd258")
 	)
 	(junction
-		(at 55.88 54.61)
+		(at 52.07 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72a23f0f-2593-429e-8666-a28316401f73")
 	)
 	(junction
-		(at 64.77 34.29)
+		(at 60.96 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fce14ac-441a-45a3-a4d9-3d9ed24a661c")
 	)
 	(junction
-		(at 72.39 34.29)
+		(at 68.58 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c17640-5a7b-499d-a655-3431bbbd8638")
 	)
+	(junction
+		(at 161.29 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0f41442-7fdb-4531-bfeb-94105f5ca9c8")
+	)
+	(junction
+		(at 161.29 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbe6b75b-90c9-4089-b255-7d4e3f61b05c")
+	)
 	(wire
 		(pts
-			(xy 72.39 54.61) (xy 72.39 66.04)
+			(xy 68.58 54.61) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1301,7 +1217,27 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 34.29) (xy 39.37 45.72)
+			(xy 161.29 34.29) (xy 161.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0762f107-318b-4b17-9437-b03496e92e6b")
+	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 144.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f936df8-670e-426c-9e70-a5bf0957888a")
+	)
+	(wire
+		(pts
+			(xy 35.56 34.29) (xy 35.56 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1311,7 +1247,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 53.34) (xy 39.37 66.04)
+			(xy 161.29 34.29) (xy 163.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b9ad04-547e-4157-a5f2-a41344271bf0")
+	)
+	(wire
+		(pts
+			(xy 35.56 53.34) (xy 35.56 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1321,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 34.29) (xy 86.36 34.29)
+			(xy 78.74 34.29) (xy 81.28 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1277,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 34.29) (xy 72.39 49.53)
+			(xy 68.58 34.29) (xy 68.58 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1341,7 +1287,37 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 52.07) (xy 64.77 54.61)
+			(xy 153.67 52.07) (xy 153.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433b0f5c-d5b0-45b8-8783-08bc0d1c8cac")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4355aed4-de0d-43d7-b09c-d365b6beb34f")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 153.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb0ed29-f211-4186-8c3d-ac57719c2eca")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 60.96 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1351,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 86.36 66.04)
+			(xy 68.58 66.04) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1361,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 66.04) (xy 72.39 66.04)
+			(xy 52.07 66.04) (xy 68.58 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1371,7 +1347,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 34.29) (xy 72.39 34.29)
+			(xy 161.29 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598c46e2-c495-4411-b287-7d9856f54b45")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 68.58 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1381,7 +1367,27 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 62.23) (xy 55.88 66.04)
+			(xy 144.78 54.61) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d03bd92-ffa9-4930-bbc8-c5bb5a15fe9c")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 128.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dad90b0-4f7c-44ab-b9be-67a5b57c0150")
+	)
+	(wire
+		(pts
+			(xy 52.07 62.23) (xy 52.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1391,7 +1397,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 54.61) (xy 55.88 54.61)
+			(xy 153.67 34.29) (xy 161.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623375cf-cc02-4e3a-9a1b-7375255d5929")
+	)
+	(wire
+		(pts
+			(xy 60.96 54.61) (xy 52.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1401,7 +1417,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 66.04) (xy 55.88 66.04)
+			(xy 35.56 66.04) (xy 52.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1411,7 +1427,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 34.29) (xy 64.77 34.29)
+			(xy 144.78 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e463ed3-ff81-482f-8da0-481b532ed57d")
+	)
+	(wire
+		(pts
+			(xy 128.27 66.04) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817bf515-e795-4580-bd52-11752ffede29")
+	)
+	(wire
+		(pts
+			(xy 57.15 34.29) (xy 60.96 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1421,7 +1457,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 86.36 68.58)
+			(xy 128.27 34.29) (xy 128.27 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96585992-91af-40b2-bc2c-b567e06ec3a1")
+	)
+	(wire
+		(pts
+			(xy 82.55 66.04) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1431,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 54.61) (xy 55.88 57.15)
+			(xy 52.07 54.61) (xy 52.07 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1441,17 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 34.29) (xy 86.36 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f63ee4-1ee2-4efe-8ba0-c9f180be2a86")
-	)
-	(wire
-		(pts
-			(xy 64.77 34.29) (xy 64.77 36.83)
+			(xy 60.96 34.29) (xy 60.96 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1497,27 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 34.29) (xy 39.37 34.29)
+			(xy 161.29 54.61) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50c23b6-6f95-4607-884b-16876b558b7d")
+	)
+	(wire
+		(pts
+			(xy 144.78 62.23) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b7bf2e-9407-4568-abc0-13f9754546da")
+	)
+	(wire
+		(pts
+			(xy 31.75 34.29) (xy 35.56 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1471,7 +1527,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 34.29) (xy 74.93 34.29)
+			(xy 149.86 34.29) (xy 153.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd88eb0c-a969-4d36-a49c-509858e4e278")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 71.12 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1547,27 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 34.29) (xy 50.8 34.29)
+			(xy 171.45 34.29) (xy 173.99 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75389c9-9132-49ea-a281-898d3ef53331")
+	)
+	(wire
+		(pts
+			(xy 128.27 34.29) (xy 139.7 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9203a9c-6584-4674-9bb8-6562ae82eaf0")
+	)
+	(wire
+		(pts
+			(xy 35.56 34.29) (xy 46.99 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1577,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 41.91) (xy 55.88 54.61)
+			(xy 153.67 54.61) (xy 144.78 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f271900c-fb01-4a12-931c-a49537d4ec0c")
+	)
+	(wire
+		(pts
+			(xy 52.07 41.91) (xy 52.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1499,9 +1595,31 @@
 		)
 		(uuid "f5fb1ef4-600b-4639-918e-db8795ec3618")
 	)
+	(wire
+		(pts
+			(xy 125.73 34.29) (xy 128.27 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f783870e-bedd-4fd9-9cdb-2b430a6a681a")
+	)
 	(rectangle
-		(start 20.32 20.32)
-		(end 93.98 80.01)
+		(start 109.22 24.13)
+		(end 193.04 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b60a7a81-3f69-410d-8b2f-90b84f6a3d11)
+	)
+	(rectangle
+		(start 16.51 24.13)
+		(end 102.87 80.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -1511,10 +1629,29 @@
 		)
 		(uuid d5ffe387-a13e-4118-8520-c580cfd04b31)
 	)
-	(text_box "Reverse Polarity Protection"
+	(text_box "Reverse Polarity Protection - External"
 		(exclude_from_sim no)
-		(at 64.77 76.2 0)
-		(size 29.21 3.81)
+		(at 152.4 76.2 0)
+		(size 40.64 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7ef5620d-4c0c-4ede-8bf5-90a9ba3dd563")
+	)
+	(text_box "Reverse Polarity Protection - Controls"
+		(exclude_from_sim no)
+		(at 62.23 76.2 0)
+		(size 40.64 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1530,9 +1667,21 @@
 		)
 		(uuid "8812f9e9-de8b-4954-80b9-d8c34bc48413")
 	)
-	(hierarchical_label "+12V_SEL"
+	(hierarchical_label "+12V_CTRLS_PROT"
+		(shape output)
+		(at 81.28 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6539079b-6918-4f35-8f62-1270d9a0f126")
+	)
+	(hierarchical_label "+12V_EXT_EN"
 		(shape input)
-		(at 34.29 34.29 180)
+		(at 125.73 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1540,11 +1689,35 @@
 			)
 			(justify right)
 		)
-		(uuid "8416a403-3440-4534-a36d-66dbc8f03ca1")
+		(uuid "d7473620-09b4-4a93-9ebe-8c8046669ffb")
+	)
+	(hierarchical_label "+12V_EXT_PROT"
+		(shape output)
+		(at 173.99 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7865ac8-f146-4787-9688-9d299c556335")
+	)
+	(hierarchical_label "+12V_CTRLS"
+		(shape input)
+		(at 31.75 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb7195b5-cb06-4fb9-a26b-1b8376ba98cb")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 68.58 0)
+		(at 82.55 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1553,7 +1726,7 @@
 		(dnp no)
 		(uuid "147aa113-e524-4c7b-9348-d7005a3e0241")
 		(property "Reference" "#PWR06"
-			(at 86.36 74.93 0)
+			(at 82.55 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 73.66 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 68.58 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 68.58 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 68.58 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,43 +1782,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SD12_SOD323")
-		(at 39.37 49.53 90)
+		(lib_id "utsvt-chips:PMV35EPE")
+		(at 144.78 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47f0dbde-3824-41ec-bc09-8d0d3d976ffa")
-		(property "Reference" "D2"
-			(at 41.275 48.26 90)
+		(fields_autoplaced yes)
+		(uuid "27839f19-855f-43f9-88dc-d107c3c64ce4")
+		(property "Reference" "Q2"
+			(at 144.78 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SD12_SOD323"
-			(at 41.275 50.8 90)
+		(property "Value" "PMV35EPER"
+			(at 144.78 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/ProductDetail/Semtech/SD12C.TCT?qs=rBWM4%252BvDhIcn8cYIj7pElQ%3D%3D"
-			(at 39.37 49.53 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 131.572 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,8 +1816,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 39.37 49.53 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
+			(at 157.988 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,8 +1825,17 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "SD12C.TCT"
-			(at 39.37 49.53 0)
+		(property "Description" "30 V, P-channel Trench MOSFET"
+			(at 160.782 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PMV35EPER"
+			(at 144.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1844,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 39.37 49.53 0)
+			(at 144.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1853,202 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 39.37 49.53 0)
+			(at 144.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2a224d51-62bc-4a44-91b0-035840eb4a87")
+		)
+		(pin "1"
+			(uuid "56876769-8084-4fab-b717-30299db0c899")
+		)
+		(pin "2"
+			(uuid "79dba4ca-f706-4752-9736-545a39a0e09f")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4771a733-eea7-47a2-b8e8-97b0d0ad13e5")
+		(property "Reference" "C6"
+			(at 163.6268 50.9016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 163.6268 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0805C105K3PACTU"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K3PACTU"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4fb2b13-cc4c-4888-8b46-e2119fd2feb6")
+		)
+		(pin "2"
+			(uuid "2c1eecfd-7696-4a5f-80cf-f0f23ddc79a4")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD12_SOD323")
+		(at 35.56 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47f0dbde-3824-41ec-bc09-8d0d3d976ffa")
+		(property "Reference" "D2"
+			(at 37.465 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD12_SOD323"
+			(at 37.465 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Semtech/SD12C.TCT?qs=rBWM4%252BvDhIcn8cYIj7pElQ%3D%3D"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SD12C.TCT"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,16 +2073,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 55.88 59.69 0)
+		(at 144.78 59.69 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e621434-ebf9-4fba-9d40-71cc2eb87793")
-		(property "Reference" "R3"
-			(at 54.3814 58.5216 0)
+		(uuid "525fac30-58de-47f4-a375-2ad6d82686ac")
+		(property "Reference" "R11"
+			(at 143.2814 58.5216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +2091,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 54.3814 60.833 0)
+			(at 143.2814 60.833 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +2100,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 55.88 59.69 0)
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +2109,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Kamaya_RMC_automotive_series_8_2022__1_-3032429.pdf"
-			(at 55.88 59.69 0)
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +2118,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 59.69 0)
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +2127,7 @@
 			)
 		)
 		(property "P/N" "CRCW0805100KFKEAC"
-			(at 55.88 59.69 0)
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +2136,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 55.88 59.69 0)
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +2145,170 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 55.88 59.69 0)
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "790756a1-162b-476c-8e79-5d6c9bdf506f")
+		)
+		(pin "2"
+			(uuid "9edff81b-5813-4fed-b059-7a900b38d1a8")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52cfb784-c736-4e5a-a517-d4f8e3c360e8")
+		(property "Reference" "#PWR05"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3de08cdc-e773-43d6-bd64-830f9132e154")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 52.07 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e621434-ebf9-4fba-9d40-71cc2eb87793")
+		(property "Reference" "R3"
+			(at 50.5714 58.5216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 50.5714 60.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Kamaya_RMC_automotive_series_8_2022__1_-3032429.pdf"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,16 +2332,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 52.07 0)
+		(lib_id "BZT52-B12-QX:BZT52-B12-QX")
+		(at 153.67 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "70ca4b97-c421-4330-aa32-db78786e8bff")
-		(property "Reference" "C1"
-			(at 74.7268 50.9016 0)
+		(fields_autoplaced yes)
+		(uuid "692565e1-edac-4f34-b417-36c3f01ab844")
+		(property "Reference" "Z2"
+			(at 158.115 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,8 +2350,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 74.7268 53.213 0)
+		(property "Value" "BZT52-B12-QX"
+			(at 158.115 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,35 +2359,88 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 72.39 52.07 0)
+		(property "Footprint" "Zener:BZT52B12QX"
+			(at 157.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0805C105K3PACTU"
-			(at 72.39 52.07 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B-Q_SER.pdf"
+			(at 154.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 52.07 0)
+		(property "Description" "plastic surface-mounted package; 2 leads .SOD123,VF:0.9v,IF = 10 mA,"
+			(at 152.4 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "P/N" "C0805C105K3PACTU"
-			(at 72.39 52.07 0)
+		(property "Height" "1.3"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-BZT52-B12-QX"
+			(at 147.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BZT52-B12-QX?qs=rQFj71Wb1eVMbK8ZYprizw%3D%3D"
+			(at 144.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BZT52-B12-QX"
+			(at 139.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "P/N" "BZT52-B12-QX"
+			(at 153.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +2449,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 72.39 52.07 0)
+			(at 153.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +2458,103 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 72.39 52.07 0)
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28e355c7-5cf9-43cd-9011-690b746656eb")
+		)
+		(pin "2"
+			(uuid "27073617-fb08-4915-b7da-216a0f943513")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
+					(reference "Z2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70ca4b97-c421-4330-aa32-db78786e8bff")
+		(property "Reference" "C1"
+			(at 70.9168 50.9016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 70.9168 53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/specsheet/C0805C105K3PACTU"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C105K3PACTU"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +2579,7 @@
 	)
 	(symbol
 		(lib_id "BZT52-B12-QX:BZT52-B12-QX")
-		(at 64.77 36.83 270)
+		(at 60.96 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1908,7 +2588,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b5d38ac-17bf-46df-a758-405b0f3dad57")
 		(property "Reference" "Z1"
-			(at 69.215 43.1799 90)
+			(at 65.405 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2597,7 @@
 			)
 		)
 		(property "Value" "BZT52-B12-QX"
-			(at 69.215 45.7199 90)
+			(at 65.405 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" "Zener:BZT52B12QX"
-			(at 68.58 46.99 0)
+			(at 64.77 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +2616,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZT52-B-Q_SER.pdf"
-			(at 66.04 46.99 0)
+			(at 62.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +2626,7 @@
 			)
 		)
 		(property "Description" "plastic surface-mounted package; 2 leads .SOD123,VF:0.9v,IF = 10 mA,"
-			(at 63.5 46.99 0)
+			(at 59.69 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +2636,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at 60.96 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2646,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-BZT52-B12-QX"
-			(at 58.42 46.99 0)
+			(at 54.61 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2656,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BZT52-B12-QX?qs=rQFj71Wb1eVMbK8ZYprizw%3D%3D"
-			(at 55.88 46.99 0)
+			(at 52.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +2666,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia"
-			(at 53.34 46.99 0)
+			(at 49.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2676,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BZT52-B12-QX"
-			(at 50.8 46.99 0)
+			(at 46.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +2686,7 @@
 			)
 		)
 		(property "P/N" "BZT52-B12-QX"
-			(at 64.77 36.83 0)
+			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2695,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 64.77 36.83 0)
+			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +2704,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 64.77 36.83 0)
+			(at 60.96 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,42 +2728,33 @@
 		)
 	)
 	(symbol
-		(lib_id "utsvt-chips:PMV35EPE")
-		(at 55.88 35.56 90)
+		(lib_id "Device:Fuse")
+		(at 167.64 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9920eab-2f0e-4ea7-b56f-ae8445bef003")
-		(property "Reference" "Q1"
-			(at 55.88 27.94 90)
+		(uuid "b574bb11-e04a-4f5c-8f71-741c7d947a50")
+		(property "Reference" "F2"
+			(at 167.64 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PMV35EPER"
-			(at 55.88 30.48 90)
+		(property "Value" "375mA"
+			(at 167.64 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 42.672 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
-			(at 69.088 30.226 0)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 167.64 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,8 +2762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30 V, P-channel Trench MOSFET"
-			(at 71.882 28.194 0)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_437_datasheet.pdf.pdf"
+			(at 167.64 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,8 +2771,44 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "PMV35EPER"
-			(at 55.88 35.56 0)
+		(property "Description" "Fuse"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0440.375WR"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "576-0440.375WR "
+			(at 167.64 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2817,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 55.88 35.56 0)
+			(at 167.64 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2826,198 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 55.88 35.56 0)
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e68dbdc0-9728-40ec-83ba-40ff11eb1d8f")
+		)
+		(pin "1"
+			(uuid "21fbfc15-500f-4aaf-a2fb-024c1065a89a")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SD12_SOD323")
+		(at 128.27 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cca4b41a-22bb-4c36-9cd8-1fc8223ebb5b")
+		(property "Reference" "D5"
+			(at 130.175 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD12_SOD323"
+			(at 130.175 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Semtech/SD12C.TCT?qs=rBWM4%252BvDhIcn8cYIj7pElQ%3D%3D"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "SD12C.TCT"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0459f2ec-ce49-4d63-9de0-36c074f15c9f")
+		)
+		(pin "2"
+			(uuid "841c8889-b2eb-44e7-b210-c92f549dadc6")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "utsvt-chips:PMV35EPE")
+		(at 52.07 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9920eab-2f0e-4ea7-b56f-ae8445bef003")
+		(property "Reference" "Q1"
+			(at 52.07 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMV35EPER"
+			(at 52.07 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 38.862 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
+			(at 65.278 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30 V, P-channel Trench MOSFET"
+			(at 68.072 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "PMV35EPER"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +3045,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 78.74 34.29 90)
+		(at 74.93 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2156,7 +3054,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9f5e237-1f56-40bd-b335-d2eee6a608a9")
 		(property "Reference" "F1"
-			(at 78.74 27.94 90)
+			(at 74.93 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +3062,7 @@
 			)
 		)
 		(property "Value" "375mA"
-			(at 78.74 30.48 90)
+			(at 74.93 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +3070,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 78.74 36.068 90)
+			(at 74.93 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +3079,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_437_datasheet.pdf.pdf"
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +3088,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +3097,7 @@
 			)
 		)
 		(property "Id" ""
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +3106,7 @@
 			)
 		)
 		(property "Vds" ""
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +3115,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-0440.375WR"
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +3124,7 @@
 			)
 		)
 		(property "P/N" "576-0440.375WR "
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +3133,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +3142,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 78.74 34.29 0)
+			(at 74.93 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,73 +3160,6 @@
 			(project "Controls-MotorControllerBreakout"
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 86.36 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbcaebf8-2dfe-48f8-876c-866992d1ac55")
-		(property "Reference" "#PWR05"
-			(at 86.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 86.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32a2fde5-c9b8-4a3d-83d1-001203022efe")
-		)
-		(instances
-			(project "Controls-MotorControllerBreakout"
-				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e/32f4b32a-b924-4653-9c1d-715759d1ff9b"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)

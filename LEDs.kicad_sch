@@ -633,6 +633,16 @@
 		)
 		(uuid "05dc1ac4-0307-45ad-bcf7-d353ecd00a30")
 	)
+	(text "TODO: need a buffer to drive these, ST pin can only sink 1mA"
+		(exclude_from_sim no)
+		(at 49.022 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24c64567-935b-438a-bebe-911db5be3eac")
+	)
 	(text "PWR: Illuminated when 12V\npower is present,\nregardless of source\n\nCTRLS: Illuminated when\ncontrols (IN2) source\nis selected\n\nEXT: Illuminated when\nexternal (IN1) source\nis selected"
 		(exclude_from_sim no)
 		(at 20.574 44.196 0)
