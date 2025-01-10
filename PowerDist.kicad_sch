@@ -1204,12 +1204,6 @@
 		(uuid "693ed797-d0d9-443a-975e-f3d8b01d69aa")
 	)
 	(junction
-		(at 100.33 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "733925db-2697-442e-85f6-e17a020a26db")
-	)
-	(junction
 		(at 172.72 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1220,6 +1214,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a539c1-1f23-4172-9a6a-7d95bd0f5152")
+	)
+	(junction
+		(at 92.71 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaf2410e-c869-41c1-a779-0902cb90f681")
 	)
 	(junction
 		(at 179.07 95.25)
@@ -1359,16 +1359,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 100.33 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4154cd5f-6b76-4560-992c-a19f4e9aa579")
-	)
-	(wire
-		(pts
 			(xy 86.36 240.03) (xy 86.36 242.57)
 		)
 		(stroke
@@ -1409,7 +1399,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 72.39) (xy 124.46 77.47)
+			(xy 92.71 54.61) (xy 123.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d96dc95-8b59-417a-b4e3-a2bb46ad8df3")
+	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 124.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1419,13 +1419,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 54.61) (xy 123.19 54.61)
+			(xy 92.71 77.47) (xy 92.71 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e717cb9-8529-4691-8813-d92ca308121d")
+		(uuid "60769107-a67f-486f-8430-4f917cfa6187")
 	)
 	(wire
 		(pts
@@ -1436,16 +1436,6 @@
 			(type default)
 		)
 		(uuid "61952a0d-0a74-4c08-98a4-aa801098b23a")
-	)
-	(wire
-		(pts
-			(xy 124.46 67.31) (xy 100.33 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ed9855-840f-4e72-98df-729864f8cf7f")
 	)
 	(wire
 		(pts
@@ -1466,6 +1456,16 @@
 			(type default)
 		)
 		(uuid "742d63a0-9428-42ea-adfd-d5652f423511")
+	)
+	(wire
+		(pts
+			(xy 92.71 54.61) (xy 92.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786994be-113b-4543-bf93-b839f669b316")
 	)
 	(wire
 		(pts
@@ -1579,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 72.39) (xy 124.46 72.39)
+			(xy 100.33 74.93) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1639,6 +1639,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 64.77) (xy 92.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8daf75f-8edb-415a-b1ed-ba2c6c4522a6")
+	)
+	(wire
+		(pts
 			(xy 172.72 64.77) (xy 172.72 67.31)
 		)
 		(stroke
@@ -1656,6 +1666,16 @@
 			(type default)
 		)
 		(uuid "bc2714cc-5c55-4cc8-8bde-2c5bb7c43c95")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be68ee92-7f2e-49bd-9bfd-ec088054ad2b")
 	)
 	(wire
 		(pts
@@ -1779,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 72.39) (xy 100.33 107.95)
+			(xy 100.33 74.93) (xy 100.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1839,6 +1859,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 69.85) (xy 92.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1b1e45-8d9f-42c2-8a5e-3ee41e220bd1")
+	)
+	(wire
+		(pts
 			(xy 123.19 53.34) (xy 123.19 54.61)
 		)
 		(stroke
@@ -1846,6 +1876,16 @@
 			(type default)
 		)
 		(uuid "fda94ba7-5cc0-482a-b6c7-6125a4f58fa1")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0fc3e9-809a-44c9-852f-223ff15b380a")
 	)
 	(rectangle
 		(start 19.05 229.87)
@@ -10686,7 +10726,17 @@
 		)
 		(uuid "6bde0693-4d8b-4b78-869c-19ba9bc1cd47")
 	)
-	(text "Using VREF mode:\n - If only one input is valid, then that input will power the output\n - If both inputs are valid, then IN1 (controls) takes priority\n\nFor a source to be valid, it must be above UV (~2.6V) and below OV as defined by the OVx resistors\nFrom WaveSculptor 22 datasheet: \"expects a DC supply on the CAN bus connection of between 9 and 15V\"\n - Selected OV = ~14.2V"
+	(text "VREF = 1.06V = 12V * (5k/5k+51k)"
+		(exclude_from_sim no)
+		(at 96.774 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "948f971e-71c4-4540-b46e-dd27ceb746d3")
+	)
+	(text "Using VREF mode (when PR1 > VREF (1.06V), IN1 selected):\n - If only one input is valid, then that input will power the output\n - If both inputs are valid, then IN1 (controls) takes priority\n\nFor a source to be valid, it must be above UV (~2.6V) and below OV as defined by the OVx resistors\nFrom WaveSculptor 22 datasheet: \"expects a DC supply on the CAN bus connection of between 9 and 15V\"\n - Selected OV = ~14.2V"
 		(exclude_from_sim no)
 		(at 104.902 30.988 0)
 		(effects
@@ -10793,6 +10843,17 @@
 		)
 		(uuid "54afefd3-0065-4cb5-b13f-0b23838410c9")
 	)
+	(label "PR1"
+		(at 92.71 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63c272bd-b4f8-43f1-8f41-4f007b437788")
+	)
 	(label "+12V_EXT_PROT"
 		(at 26.67 52.07 270)
 		(fields_autoplaced yes)
@@ -10838,7 +10899,7 @@
 		(uuid "9be6e669-582e-4860-ab9a-9e0c71aea452")
 	)
 	(label "+12V_CTRLS_PROT"
-		(at 100.33 54.61 0)
+		(at 93.98 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11326,6 +11387,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 92.71 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23faea76-fc0e-4513-84fa-86964ea24e0c")
+		(property "Reference" "R13"
+			(at 95.25 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51k"
+			(at 95.25 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 90.932 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9dc11864-eeff-413f-be7c-25bb98485e3d")
+		)
+		(pin "1"
+			(uuid "d9214539-97ad-4a4c-ae00-8cccd47b971a")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 105.41 0)
 		(unit 1)
@@ -11602,7 +11733,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47298d6d-7b2a-4c99-b7a5-6821d9d1e74a")
 		(property "Reference" "#FLG02"
 			(at 119.38 79.375 0)
@@ -11614,7 +11744,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 119.38 76.2 0)
+			(at 119.38 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12686,6 +12816,76 @@
 			(project ""
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdf9a715-783d-4327-b3a5-eac7c5652bef")
+		(property "Reference" "R12"
+			(at 95.25 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 95.25 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 90.932 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "661cd994-0705-48d8-8cce-bd0caee640c9")
+		)
+		(pin "1"
+			(uuid "39daf114-8fb4-4b63-bc50-2c9b036a1e92")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "R12")
 					(unit 1)
 				)
 			)
