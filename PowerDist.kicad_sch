@@ -11879,7 +11879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V_STATUS"
+		(property "Value" "STATUS"
 			(at 88.9 237.9979 0)
 			(effects
 				(font
@@ -12350,7 +12350,7 @@
 				)
 			)
 		)
-		(property "Value" "EXT ENABLE"
+		(property "Value" "EXT EN"
 			(at 41.91 107.95 0)
 			(effects
 				(font
