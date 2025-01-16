@@ -243,6 +243,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -364,23 +497,23 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Open"
+		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim yes)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
-				(at 0 2.794 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -405,7 +538,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Jumper, 2-pole, open"
+			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(effects
 					(font
@@ -414,7 +547,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Jumper SPST"
+			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -423,7 +556,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+			(property "ki_fp_filters" "SolderJumper*Open*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -432,35 +565,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
+			(symbol "SolderJumper_2_Open_0_1"
 				(arc
-					(start 1.524 1.27)
-					(mid 0 1.778)
-					(end -1.524 1.27)
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -469,10 +578,70 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
-			(symbol "Jumper_2_Open_1_1"
+			(symbol "SolderJumper_2_Open_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -490,7 +659,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -1259,13 +1428,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 54.61) (xy 171.45 54.61)
+			(xy 21.59 115.57) (xy 44.45 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14cd195a-cbcc-4ba2-9339-92fa6a8fea6c")
+		(uuid "13d88d97-5057-446e-b190-399859276857")
 	)
 	(wire
 		(pts
@@ -1289,16 +1458,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 48.26) (xy 171.45 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6d5eca-756a-4f85-94ae-2e068c4e70c2")
-	)
-	(wire
-		(pts
 			(xy 119.38 82.55) (xy 124.46 82.55)
 		)
 		(stroke
@@ -1316,6 +1475,16 @@
 			(type default)
 		)
 		(uuid "1df52a2c-ed91-4fbf-9ef5-45921ec25cc1")
+	)
+	(wire
+		(pts
+			(xy 52.07 115.57) (xy 63.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bdff9b-0675-4bc0-bf4c-1a273dc32398")
 	)
 	(wire
 		(pts
@@ -1389,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 64.77) (xy 57.15 68.58)
+			(xy 57.15 52.07) (xy 57.15 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1416,6 +1585,26 @@
 			(type default)
 		)
 		(uuid "52c362c9-4705-4899-a6ff-4930303b7e61")
+	)
+	(wire
+		(pts
+			(xy 171.45 43.18) (xy 171.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c19892-f3db-4177-9dd3-cdbe39508d82")
+	)
+	(wire
+		(pts
+			(xy 171.45 53.34) (xy 171.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5060b8-11be-4240-bf75-0adf54463413")
 	)
 	(wire
 		(pts
@@ -1446,6 +1635,26 @@
 			(type default)
 		)
 		(uuid "6539ff98-51da-4e86-8bca-622cc2b4b72e")
+	)
+	(wire
+		(pts
+			(xy 171.45 54.61) (xy 162.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65460e90-e307-403e-a3a6-ece7582b0cc9")
+	)
+	(wire
+		(pts
+			(xy 45.72 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71463187-fc13-482c-a100-bdf461061cfc")
 	)
 	(wire
 		(pts
@@ -1519,7 +1728,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 111.76) (xy 36.83 111.76)
+			(xy 34.29 107.95) (xy 38.1 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1616,16 +1825,6 @@
 			(type default)
 		)
 		(uuid "ae540df7-f0df-49a2-9a30-8b0e578d1ac6")
-	)
-	(wire
-		(pts
-			(xy 46.99 111.76) (xy 62.23 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b30ee894-0c5f-43de-ab3c-3f7c66019a53")
 	)
 	(wire
 		(pts
@@ -1901,7 +2100,7 @@
 	)
 	(rectangle
 		(start 19.05 96.52)
-		(end 67.31 120.65)
+		(end 67.31 121.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -10658,10 +10857,10 @@
 		)
 		(uuid "9173f1c1-61a1-404f-8e79-457eb29ea3d7")
 	)
-	(text_box "External PWR Jumper"
+	(text_box "PWR Jumpers"
 		(exclude_from_sim no)
-		(at 44.45 116.84 0)
-		(size 22.86 3.81)
+		(at 52.07 118.11 0)
+		(size 15.24 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -10767,15 +10966,26 @@
 		)
 		(uuid "f37d5807-3cb8-44a6-b120-1a3ef306eec2")
 	)
-	(text "Manual enable/disable for external pwr\nin case of issues with muxing IC"
+	(text "Manual enable/disable for external pwr and\ncontrols in case of issues with muxing IC"
 		(exclude_from_sim no)
-		(at 42.926 100.838 0)
+		(at 43.18 99.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "f9a21fa1-d2b2-4683-a3d8-77a724482cf9")
+	)
+	(label "F1-IN"
+		(at 171.45 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c3bf77f-dca2-49b5-b4f5-97de4751fab6")
 	)
 	(label "+12V_CTRLS_PROT"
 		(at 66.04 30.48 180)
@@ -10809,6 +11019,17 @@
 			(justify left bottom)
 		)
 		(uuid "358fe425-f2e9-4158-be5e-53531e0a2e32")
+	)
+	(label "F1-IN"
+		(at 57.15 52.07 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a1639b8-8df5-4402-80b4-c7335d8e8c38")
 	)
 	(label "+12V_EXT_PROT"
 		(at 35.56 259.08 90)
@@ -10943,7 +11164,7 @@
 		(uuid "c9a12637-ae03-486b-840d-afc099f15efe")
 	)
 	(label "+12V_EXT_EN"
-		(at 62.23 111.76 180)
+		(at 62.23 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10952,6 +11173,28 @@
 			(justify right bottom)
 		)
 		(uuid "d39223e1-3cd4-438c-8ed7-525ec5d1a3ad")
+	)
+	(label "F1-IN"
+		(at 63.5 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7b2be65-520c-4a46-97c5-08d4f95ef285")
+	)
+	(label "+12V_CTRLS_PROT"
+		(at 21.59 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee410d0a-0ce6-46b2-b87e-2b683dfc7b59")
 	)
 	(hierarchical_label "+12V_CTRLS"
 		(shape input)
@@ -10979,7 +11222,7 @@
 	)
 	(hierarchical_label "+12V_EXT"
 		(shape input)
-		(at 34.29 111.76 180)
+		(at 34.29 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11245,6 +11488,91 @@
 			(project "Controls-MotorControllerBreakout"
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 48.26 115.57 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ce171de-4e03-4dcc-bec2-28e6b334a70c")
+		(property "Reference" "JP3"
+			(at 48.26 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MNL"
+			(at 48.26 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 48.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "476012b8-99e0-4c5a-a69c-71cabda7f4e5")
+		)
+		(pin "2"
+			(uuid "c5296f1c-b3c9-483d-8e45-a220183338a3")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -11999,17 +12327,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 171.45 48.26 0)
+		(at 171.45 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7011d8e8-4d11-4786-9f5c-6d25db7a6895")
 		(property "Reference" "#PWR017"
-			(at 171.45 52.07 0)
+			(at 171.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12345,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 171.45 43.18 0)
+			(at 171.45 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 48.26 0)
+			(at 171.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,7 +12362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 48.26 0)
+			(at 171.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +12371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 171.45 48.26 0)
+			(at 171.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12333,17 +12660,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 41.91 111.76 0)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 41.91 107.95 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a505f30b-7cbf-4259-92da-3450bdd535e8")
 		(property "Reference" "JP2"
-			(at 41.91 105.41 0)
+			(at 41.91 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,15 +12677,15 @@
 			)
 		)
 		(property "Value" "EXT EN"
-			(at 41.91 107.95 0)
+			(at 41.91 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 41.91 111.76 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12368,7 +12694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 111.76 0)
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,8 +12702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 41.91 111.76 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12712,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 41.91 111.76 0)
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12721,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 41.91 111.76 0)
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12479,6 +12805,130 @@
 			(project "Controls-MotorControllerBreakout"
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 171.45 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7f13130-d9ea-42ed-a186-01c80166b2e2")
+		(property "Reference" "F1"
+			(at 173.99 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "375mA"
+			(at 173.99 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 173.228 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_437_datasheet.pdf.pdf"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Id" ""
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vds" ""
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-0440.375WR"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "576-0440.375WR "
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "510f1639-fd7f-48cb-b834-da58c03026fb")
+		)
+		(pin "1"
+			(uuid "181b6ee1-7f56-4e59-bb5f-0fefd76a0e59")
+		)
+		(instances
+			(project "Controls-MotorControllerBreakout"
+				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -13155,73 +13605,6 @@
 			(project "Controls-MotorControllerBreakout"
 				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 57.15 64.77 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3aaf89e-a36f-4ea4-9d1d-dc8956caa885")
-		(property "Reference" "#PWR018"
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 57.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04276e5a-fbef-46e1-b22c-7d98a7ae9494")
-		)
-		(instances
-			(project "Controls-MotorControllerBreakout"
-				(path "/0a971d65-5373-49c6-bc07-3a5d4263dbef/2da5a7b5-cad0-4d65-bb48-cd65e4f2745e"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
