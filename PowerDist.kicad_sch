@@ -11408,6 +11408,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C105K5PACTU"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88154a65-56a1-4742-ab1c-0f43212ac1cb")
 		)
@@ -11470,6 +11479,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW08055K00FKTA"
 			(at 172.72 74.93 0)
 			(effects
 				(font
@@ -11699,6 +11717,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08055K00FKTA"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "003ce641-b560-46fd-8133-543788ced874")
 		)
@@ -11761,6 +11788,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080551K0FKEA"
 			(at 92.71 60.96 0)
 			(effects
 				(font
@@ -11972,6 +12008,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW080562K0FKEA"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9efdcc6b-3c53-45ba-bb60-d19d15434ff0")
 		)
@@ -12173,6 +12218,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "C0805C104M5RACTU"
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b0ad986-a5c0-46f2-8b70-a99b31369e24")
 		)
@@ -12302,6 +12356,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 26.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
 			(at 26.67 72.39 0)
 			(effects
 				(font
@@ -12636,6 +12699,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "C0805C104M5RACTU"
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -13123,6 +13195,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW0805100KFKEAC"
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3f6493cc-dea6-4a5f-b139-2a62559e5d20")
 		)
@@ -13326,6 +13407,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "CRCW08055K00FKTA"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "661cd994-0705-48d8-8cce-bd0caee640c9")
 		)
@@ -13388,6 +13478,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "CRCW080562K0FKEA"
 			(at 172.72 60.96 0)
 			(effects
 				(font
