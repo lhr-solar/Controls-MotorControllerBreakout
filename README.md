@@ -6,5 +6,6 @@ Power and CAN interface board for the Prohelion WaveSculptor 22
 - version for MPPT as well? connectors for TPPE MPPT?
 -  space for motor interface board (VHB)
 
-Mouser Cart: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=53ae20873e
+Mouser Cart: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=de9c48e362
+
 
