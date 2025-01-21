@@ -33,7 +33,6 @@ fp-info-cache
 
 # Mac Specific
 .DS_Store
-Production/
 
 # Backups
 Controls-MotorControllerBreakout-backups/*
