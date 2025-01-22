@@ -8,7 +8,13 @@ IBOM: BOM/ibom.html (download and view in browser)
 Mouser Cart: https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=de9c48e362
 
 ## Connectors
-
+| # | Name | Type | Ideal Voltage |
+| - | - | - | - |
+| J1  | MC CAN 1 | Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical Female | +12V |
+| J2  | MC CAN 2 | Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical Female | N/A |
+| J3  | CTRLS | Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical Female | +12V |
+| J4  | EXT PWR | Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical Female | +12V |
+| J5  | CANDAPTER | AMPHENOL_L77SDE09SA4CH3R Female | N/A |
 
 ## 3D Model
 ![image](https://github.com/user-attachments/assets/8b09e65b-588a-480e-ac9f-959f3143bfe2)
