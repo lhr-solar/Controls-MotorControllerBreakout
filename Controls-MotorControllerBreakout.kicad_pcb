@@ -1361,7 +1361,7 @@
 			)
 		)
 		(property "Value" "375mA"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "4305a5e6-cd22-4b00-8351-4ac02982e0a9")
 			(effects
@@ -1594,7 +1594,7 @@
 			(uuid "2ce609e7-280f-470a-95e9-89265246e6ce")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "dfa9dfef-f1db-4ea9-960f-4c6bcb5b5e31")
 			(effects
@@ -20636,8 +20636,8 @@
 		)
 	)
 	(gr_rect
-		(start 119.5 71.75)
-		(end 106 76.5)
+		(start 106 71.75)
+		(end 119.5 76.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -20866,18 +20866,6 @@
 		(at 88 91.5 0)
 		(layer "Cmts.User")
 		(uuid "2f4c7110-2195-4eec-a6ad-9d5c58f5dd95")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "check all silks"
-		(at 59.75 30.5 0)
-		(layer "Cmts.User")
-		(uuid "cbf7e9d9-e257-467c-9a1d-c584fb02c757")
 		(effects
 			(font
 				(size 1 1)
@@ -22486,8 +22474,7 @@
 			(pts
 				(xy 98 67.25) (xy 96.25 67.25) (xy 94.25 67.25) (xy 93.75 66.75) (xy 87.5 66.75) (xy 87.25 47.5)
 				(xy 93 47.5) (xy 93 50) (xy 91 50) (xy 90.5 50.5) (xy 90.5 57.75) (xy 90.5 60.25) (xy 90.75 60.5)
-				(xy 90.75 62) (xy 90.5 62.25) (xy 90.5 64.25) (xy 91 64.75) (xy 98 64.75) (xy 98 65.25) (xy 98 65.25)
-				(xy 98 65.25) (xy 98 67.25)
+				(xy 90.75 62) (xy 90.5 62.25) (xy 90.5 64.25) (xy 91 64.75) (xy 98 64.75) (xy 98 65.25)
 			)
 		)
 		(filled_polygon
@@ -22989,7 +22976,7 @@
 		)
 		(polygon
 			(pts
-				(xy 93.9 72.5125) (xy 92.1 72.5125) (xy 92.1 72.5125) (xy 90.2 72.5125) (xy 90.2 70.5125) (xy 93.9 70.5125)
+				(xy 93.9 72.5125) (xy 92.1 72.5125) (xy 90.2 72.5125) (xy 90.2 70.5125) (xy 93.9 70.5125)
 			)
 		)
 		(filled_polygon
