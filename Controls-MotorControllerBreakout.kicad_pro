@@ -513,7 +513,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -585,7 +585,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "P/N",
           "name": "P/N",
           "show": true
@@ -648,6 +648,18 @@
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
           "show": false
         }
       ],
