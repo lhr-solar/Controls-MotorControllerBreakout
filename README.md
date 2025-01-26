@@ -1,3 +1,5 @@
+TODO for v3.0: add ESP32 for wireless debugging & any other QOL features
+
 # Controls-MotorControllerBreakout
 Author: Ravi Shah  
 
