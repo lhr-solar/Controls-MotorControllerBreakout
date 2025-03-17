@@ -10946,13 +10946,14 @@
 		)
 		(uuid "bd6d8164-2902-4dc9-91c8-8d96822be152")
 	)
-	(text "RILM configured with minimum current limit of 1A (100kΩ)"
+	(text "RILM configured for limit 2.5A, change based on testing with MC\nEach fan draws 160mA, NOT SURE WHAT MC DRAWS"
 		(exclude_from_sim no)
-		(at 202.184 92.964 0)
+		(at 163.068 98.552 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "e0da180b-9c72-4b13-b9ae-96c5d0fa93c1")
 	)
@@ -12901,7 +12902,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "375mA"
+		(property "Value" "2A"
 			(at 173.99 50.7999 0)
 			(effects
 				(font
@@ -12955,7 +12956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-0440.375WR"
+		(property "Mouser Part Number" "576-0440002.WR "
 			(at 171.45 49.53 0)
 			(effects
 				(font
@@ -12964,7 +12965,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "576-0440.375WR "
+		(property "P/N" "0440002.WR "
 			(at 171.45 49.53 0)
 			(effects
 				(font
@@ -13159,7 +13160,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "44.2k (TBD)"
 			(at 166.37 91.4399 0)
 			(effects
 				(font
@@ -13195,7 +13196,7 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" "CRCW0805100KFKEAC"
+		(property "P/N" "TBD"
 			(at 163.83 90.17 0)
 			(effects
 				(font
