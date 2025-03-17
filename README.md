@@ -1,4 +1,4 @@
-TODO for v3.0: add ESP32 for wireless debugging & any other QOL features
+TODO: update readme for v2.1: added 2 fan connectors, raised TPS2121 current limit & fuse rating
 
 # Controls-MotorControllerBreakout
 Author: Ravi Shah  
