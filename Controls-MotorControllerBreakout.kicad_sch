@@ -2588,6 +2588,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "0436500215"
+			(at 179.07 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c436c77-d357-4235-98b6-f6dce46669ed")
 		)
@@ -2650,6 +2659,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "0436500215"
 			(at 179.07 49.53 0)
 			(effects
 				(font
